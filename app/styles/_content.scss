@@ -3,15 +3,17 @@
 }
 
 .marketing {
+  background: $gray-lighter;
+  border-radius: 10px;
   a {
     color: $brand-warning;
   }
   p {
-    color: $brand-primary;
+    color: $brand-success;
   }
 }
 
 .container .jumbotron {
-  @include border-top-radius(50px);
-  @include border-bottom-radius(50px);
+  @include border-top-radius(10px);
+  @include border-bottom-radius(10px);
 }

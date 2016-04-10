@@ -1,0 +1,14 @@
+@import "variables";
+
+.nav {
+  li {
+    display: inline-block;
+    border-radius: 4px;
+  } .active {
+    background: $brand-success;
+  } .active a {
+    color: white;
+  } .active a:hover, a {
+    color: $brand-success;
+  }
+}

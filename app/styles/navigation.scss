@@ -1,9 +1,13 @@
+//import variables
 @import "variables";
+
+//import mixins
+@import "mixins";
 
 .nav {
   li {
     display: inline-block;
-    border-radius: 4px;
+    @include border-radius(4px);
   } .active {
     background: $brand-success;
   } .active a {
